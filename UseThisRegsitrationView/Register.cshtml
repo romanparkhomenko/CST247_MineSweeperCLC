@@ -1,0 +1,91 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!-- This is the Registration page it will need a form for the controller to add to that is it also need a route config to be directed here-->
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <!-- if you guys do not like the colors you can change them in the style option-->
+    <style>
+
+        header {
+            background-color: #666699
+        }
+
+        textarea {
+            background-color: #333399;
+            color: white;
+            text-anchor: middle;
+        }
+
+        button {
+            background-color: #333399;
+            color: white
+        }
+    </style>
+</head>
+<body style="background-color: #666699; color: white">
+    <center>
+        <div>
+            <header><b>Better Steam/Battlenet/Origins</b><center><h1>Sign Up to Game Library</h1> | <a href="Home">Home</a> | <a href="Login">Login Page</a> | <a href="About">About</a> | <a href="Help">Help</a> | </center></header>
+        </div>
+    </center>
+    <center>
+        <div>
+            <b>Username: </b> <textarea>enter username here</textarea><br />
+            <b>Password: </b> <textarea>enter password here</textarea><br />
+            <b>ReEnter Password: </b> <textarea>reenter password here</textarea><br />
+            <br />
+            <b>First Name: </b> <textarea>enter First Name here</textarea><br />
+            <b>Last Name: </b> <textarea>enter Last Name here</textarea><br />
+            <b>Birthdate: </b><textarea>__/__/_____</textarea><br />
+            <b>Age:</b><textarea>enter Age here</textarea><br />
+            <b>Gender/Sex: </b><textarea>enter Gender/Sex here</textarea><br />
+            <b>Email Address: </b><textarea>johndoe@email.com</textarea><br />
+
+            <b>Two Step Authentication:</b><br />
+            <b>Phone #: </b><textarea>###-###-####</textarea><br />
+
+            <b>Security Questions:</b><br />
+            <!-- Added some select boxes for we can have dropdown options for the user-->
+            1. <select>
+                   <option>Mother's madien name?</option>
+                    <option>Father's middle name?</option>
+                    <option>First Car Model?</option>
+                    <option>Highschool Mascot?</option>
+                    <option>Favorite Hobby?</option>
+                    <option>Favorite Color?</option>
+            </select><br />
+            <textarea>Enter Answer 1 here</textarea><br />
+            2.<select>
+                <option>Mother's madien name?</option>
+                <option>Father's middle name?</option>
+                <option>First Car Model?</option>
+                <option>Highschool Mascot?</option>
+                <option>Favorite Hobby?</option>
+                <option>Favorite Color?</option>
+            </select><br />
+            <textarea>Enter Answer 2 here</textarea><br />
+            3.<select>
+                <option>Mother's madien name?</option>
+                <option>Father's middle name?</option>
+                <option>First Car Model?</option>
+                <option>Highschool Mascot?</option>
+                <option>Favorite Hobby?</option>
+                <option>Favorite Color?</option>
+            </select><br />
+            <textarea>Enter Answer 3 here</textarea><br />
+            <!-- while probably need to be added to a submit function in the form-->
+            <button>Submit</button>
+
+
+        </div>
+    </center>
+
+    
+</body>
+</html>
