@@ -26,12 +26,5 @@ namespace MinesweeperProjectCLC247.Models
             this.Row = row;
             this.Column = column;
         }
-        
-        public void OnClick()
-        {
-
-        }
-
-        
     }
 }
