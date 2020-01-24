@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MinesweeperProjectCLC247.Models
 {
-    public class Cell: Html.Button
+    public class Cell
     {
         public bool IsClicked { get; set; } = false;
         public int LiveNeighbors { get; set; } = 0;
@@ -14,6 +14,7 @@ namespace MinesweeperProjectCLC247.Models
         public bool IsVisited { get; set; } = false;
         public int Row { get; set; }
         public int Column { get; set; }
+        public string Text { get; set; }
 
         /*Expected usage: 
          *
