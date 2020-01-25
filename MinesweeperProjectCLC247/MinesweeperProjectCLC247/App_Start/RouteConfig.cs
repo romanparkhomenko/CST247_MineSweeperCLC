@@ -22,6 +22,11 @@ namespace MinesweeperProjectCLC247 {
                 defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional });
 
             routes.MapRoute(
+                name: "MainMenu",
+                url: "{MainMenu}",
+                defaults: new { controller = "MainMenu", action = "Index", id = UrlParameter.Optional });
+
+            routes.MapRoute(
                 name: "Game",
                 url: "{Game}",
                 defaults: new { controller = "Game", action = "Index", id = UrlParameter.Optional });

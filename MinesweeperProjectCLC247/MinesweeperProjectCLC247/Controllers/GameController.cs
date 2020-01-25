@@ -105,7 +105,7 @@ namespace MinesweeperProjectCLC247.Controllers {
 
         private ActionResult EndGame() {
             RevealAll();
-
+            
             return View("Index", Globals.Grid);
         }
 
