@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+
+<div class="row">
+    <h2 class="text-center">Login to Game Library</h2>
+    <div class="col-md-6 col-md-offset-3">
+        @using (Html.BeginForm("Login", "Login", FormMethod.Post)) {
+            @Html.AntiForgeryToken()
+            <div class="panel">
+                <div class="panel-body">
+                    <fieldset class="form-group">
+                        <label>Username</label>
+                        @Html.TextBox("username", "", new { @class = "form-control" })
+                        @Html.ValidationMessage("username")
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>Password</label>
+                        @Html.Password("password", "", new { @class = "form-control" })
+                        @Html.ValidationMessage("password")
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <div class="col">
+                            <button type="submit" class="btn btn-success" value="Login">Login</button>
+                        </div>
+                        <br />
+                        <div class="col">
+                            <a href="@Url.Action("Index", "Register")">
+                                Have you been here before? Register here!
+                            </a>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        }
+    </div>
+</div>
