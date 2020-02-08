@@ -16,6 +16,7 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Main Menu", "Index", "MainMenu", routeValues: null, htmlAttributes: new { id = "mainmenuLink" })</li>
         <li>@Html.ActionLink("Register", "Index", "Register", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
         <li>@Html.ActionLink("Log in", "Index", "Login", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
     </ul>

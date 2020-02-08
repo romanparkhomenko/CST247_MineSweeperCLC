@@ -20,6 +20,19 @@ namespace MinesweeperProjectCLC247 {
                 name: "Login",
                 url: "{Login}",
                 defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional });
+<<<<<<< Updated upstream
+=======
+
+            routes.MapRoute(
+                name: "MainMenu",
+                url: "{MainMenu}",
+                defaults: new { controller = "MainMenu", action = "Index", id = UrlParameter.Optional });
+
+            routes.MapRoute(
+                name: "Game",
+                url: "{Game}",
+                defaults: new { controller = "Game", action = "Index", id = UrlParameter.Optional });
+>>>>>>> Stashed changes
         }
     }
 }
