@@ -276,3 +276,6 @@ C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\Min
 C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csproj.CopyComplete
 C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.dll
 C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.pdb
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.config
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.xml
