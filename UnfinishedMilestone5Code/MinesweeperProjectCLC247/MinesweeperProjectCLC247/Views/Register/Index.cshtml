@@ -1,0 +1,67 @@
+﻿ @{
+    ViewBag.Title = "Register Account";
+}
+
+@model MinesweeperProjectCLC247.Models.UserModel
+
+<div class="row">
+    <h2 class="text-center">Register New Account</h2>
+    <div class="col-lg-6 col-lg-offset-4">
+        @using (Html.BeginForm("Register", "Register", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <div class="panel">
+                <div class="panel-body">
+                    <fieldset class="form-group">
+                        <label>First Name</label>
+                        @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.FirstName)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>Last Name</label>
+                        @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.LastName)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>Gender</label>
+                        @Html.TextBoxFor(model => model.Gender, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Gender)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>Age</label>
+                        @Html.TextBoxFor(model => model.Age, "", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Age)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>State</label>
+                        @Html.TextBoxFor(model => model.State, "", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.State)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>Email</label>
+                        @Html.TextBoxFor(model => model.Email, "", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>Username</label>
+                        @Html.TextBoxFor(model => model.Username, "", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Username)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>Password</label>
+                        @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Password)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label>Confirm Password</label>
+                        @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ConfirmPassword)
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <button type="submit" class="btn btn-success" value="Register">Register</button>
+                    </fieldset>
+                </div>
+            </div>
+        }
+    </div>
+</div>

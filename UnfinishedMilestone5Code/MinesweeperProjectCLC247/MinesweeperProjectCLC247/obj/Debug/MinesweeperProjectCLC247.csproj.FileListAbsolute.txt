@@ -1,0 +1,355 @@
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\csc.exe
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\vbc.exe
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll.config
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.pdb
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Owin.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\WebGrease.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.pdb
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csprojResolveAssemblyReference.cache
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.dll
+C:\Users\Russi\Documents\Roman's SchoolWork\CST-247\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.pdb
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\csc.exe
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\vbc.exe
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll.config
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.pdb
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Owin.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\WebGrease.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.pdb
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csprojAssemblyReference.cache
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csproj.CopyComplete
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.dll
+C:\Users\zachs\Desktop\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.pdb
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csprojResolveAssemblyReference.cache
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.pdb
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\csc.exe
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\vbc.exe
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll.config
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.pdb
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Owin.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\WebGrease.dll
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.pdb
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Russi\Documents\GitHub\CST247_MineSweeperCLC\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\csc.exe
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\vbc.exe
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll.config
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.pdb
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Owin.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\WebGrease.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.pdb
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csprojAssemblyReference.cache
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csproj.CopyComplete
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.pdb
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.config
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.dll
+C:\Users\zachs\Desktop\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.config
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\csc.exe
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\vbc.exe
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll.config
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\MinesweeperProjectCLC247.pdb
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Owin.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\WebGrease.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\NLog.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Helpers.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Mvc.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Optimization.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.Razor.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Deployment.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\System.Web.WebPages.Razor.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Antlr3.Runtime.pdb
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Newtonsoft.Json.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\EntityFramework.SqlServer.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csprojAssemblyReference.cache
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csproj.CoreCompileInputs.cache
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.csproj.CopyComplete
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.dll
+C:\Users\David Pratt Jr\source\repos\CST247_MineSweeperCLC-master\MinesweeperProjectCLC247\MinesweeperProjectCLC247\obj\Debug\MinesweeperProjectCLC247.pdb

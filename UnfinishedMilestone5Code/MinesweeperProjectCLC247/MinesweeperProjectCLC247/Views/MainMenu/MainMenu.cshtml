@@ -1,0 +1,25 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MainMenu</title>
+</head>
+<body>
+    <h3 style="width: 100%; text-align:center;">Game Mode Selection: </h3>
+    <center>
+        @using (Html.BeginForm("Index", "Game", FormMethod.Get))
+        {
+
+       
+            @Html.RadioButton("Easy", 0)@Html.Label("Easy")<br />
+            @Html.RadioButton("Medium", 1)@Html.Label("Medium")<br />
+            @Html.RadioButton("Hard", 2)@Html.Label("Hard")<br />
+
+            <button type="submit">Start Game</button>
+        }
+       
+    </center>
+</body>
+</html>
