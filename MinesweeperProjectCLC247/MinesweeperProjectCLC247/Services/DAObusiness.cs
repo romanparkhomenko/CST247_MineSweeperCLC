@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using MinesweeperProjectCLC247.Models;
 
 namespace MinesweeperProjectCLC247.Services
 {
@@ -14,7 +15,7 @@ namespace MinesweeperProjectCLC247.Services
          *                                *
          *    Call this method to Login   * 
          **********************************/
-        public bool Login(string Username, string Password)
+        public int Login(string Username, string Password)
         {
             DAO dao = new DAO();
 
@@ -37,6 +38,25 @@ namespace MinesweeperProjectCLC247.Services
             DAO dao = new DAO();
 
             return dao.Register(newUser);
+        }
+
+
+        public GameBoardModel FindGrid(int userID) {
+            DAO dao = new DAO();
+
+            return dao.FindGrid(userID);
+        }
+
+        public List<PublishedGame> getAllStats() {
+            DAO dao = new DAO();
+
+            //saves game stats to db
+            return dao.getAllStats();
+        }
+
+        public void SaveGame(GameBoardModel grid, string userID) {
+            DAO dao = new DAO();
+            dao.SaveGame(grid, userID);
         }
 
     }

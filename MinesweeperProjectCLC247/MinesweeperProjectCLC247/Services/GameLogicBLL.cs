@@ -9,9 +9,25 @@ namespace MinesweeperProjectCLC247.Services
 {
     public class GameLogicBLL
     {
+
+        // Find an existing saved grid and save it to storage
+        public GameBoardModel FindGrid(int userID) {
+            DAObusiness businessService = new DAObusiness();
+            Globals.Grid = businessService.FindGrid(userID);
+
+            if (Globals.Grid != null) {
+                // Activate the cells
+                FillRandomCells(20, Globals.Grid.Cols, Globals.Grid.Rows, Globals.Grid.Cells, Globals.Grid);
+                return Globals.Grid;
+            } else {
+                return null;
+            }
+        }
+
         // Function to create GLOBAL Grid and fill it with random cells.
         public GameBoardModel CreateGrid(int width, int height)
         {
+            Globals.timer.Start();
 
             Globals.Grid = new GameBoardModel(width, height, false);
             CellModel[,] cells = new CellModel[width, height];
@@ -69,7 +85,7 @@ namespace MinesweeperProjectCLC247.Services
 
 
         // Recursive solution to go through grid and reveal open neighbors.
-        private bool showNeighbors(GameBoardModel grid, int x, int y)
+        public bool showNeighbors(GameBoardModel grid, int x, int y)
         {
             CellModel cell = grid.Cells[x, y];
             cell.IsVisited = true;

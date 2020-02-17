@@ -12,7 +12,6 @@ namespace MinesweeperProjectCLC247.Models {
         public int Cols { get; set; }
         public bool HasWon { get; set; }
         public CellModel[,] Cells { get; set; }
-        public Stopwatch stopwatch = new Stopwatch();
 
 
         //constructor to make board of given size

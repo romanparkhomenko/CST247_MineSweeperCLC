@@ -10,8 +10,6 @@ namespace MinesweeperProjectCLC247.Constants
 {
     public class Globals
     {
-        
-        
         public static Stopwatch timer = new Stopwatch();
         public static int numberClicks;
         public static GameBoardModel Grid { get; set; }

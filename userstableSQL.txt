@@ -10,3 +10,25 @@ CREATE TABLE [dbo].[Users] (
     [Password]  VARCHAR (50) NOT NULL
 );
 
+CREATE TABLE [dbo].[Grids] (
+    [ID]        INT          NOT NULL IDENTITY PRIMARY KEY,
+    [rows] INT NOT NULL,
+    [cols]  INT NOT NULL,
+    [haswon]    VARCHAR (5)  NOT NULL,
+	[gridObject] NVARCHAR(MAX),
+    [UserID] INT NOT NULL, CONSTRAINT UserID FOREIGN KEY (UserID)
+	REFERENCES Users (ID)
+	ON DELETE CASCADE
+	ON UPDATE CASCADE
+);
+
+CREATE TABLE [dbo].[Stats] (
+    [ID]        INT          NOT NULL IDENTITY PRIMARY KEY,
+    [Clicks] INT NOT NULL,
+    [Time]  VARCHAR(50) NOT NULL,
+	[StatsUserID] INT NOT NULL, CONSTRAINT StatsUserID FOREIGN KEY (StatsUserID)
+	REFERENCES Users (ID)
+	ON DELETE CASCADE
+	ON UPDATE CASCADE
+);
+

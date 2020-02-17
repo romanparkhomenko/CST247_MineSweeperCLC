@@ -4,10 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MinesweeperProjectCLC247.Services.Utility;
+using NLog;
 
 namespace MinesweeperProjectCLC247.Controllers
 {
     public class LoginController : Controller {
+
+        private static MyLogger1 logger = MyLogger1.GetInstance();
 
         // GET: Login
         [HttpGet]
@@ -50,14 +54,18 @@ namespace MinesweeperProjectCLC247.Controllers
 
         private ActionResult AuthenticateUser(string username, string password) {
             DAObusiness service = new DAObusiness();
+            
+            int authorized = service.Login(username, password);
 
-            bool authorized = service.Login(username, password);
+            logger.Info("Authorized: " + authorized);
 
-            if (authorized) {
+            if (authorized != 0) {
                 Session["user"] = username;
+                Session["userid"] = authorized;
                 Session.Timeout = 20;
 
                 ViewBag.Username = Session["user"];
+                ViewBag.UserID = Session["userid"];
                 return View("LoginPassed");
             } else {
                 return View("LoginFailed");

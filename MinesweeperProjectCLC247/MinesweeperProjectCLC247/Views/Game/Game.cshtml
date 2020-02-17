@@ -40,10 +40,22 @@
     }
 </table>
 
-    <br />
-    <form action="/Game" method="post">
-        <button type="submit" style="display:none">Restart Game</button>
-    </form>
+    <div style="display: flex;">
+        @using (Html.BeginForm("resetGame", "Game", FormMethod.Get)) {
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-4">
+                    <input type="submit" value="Reset Game" class="btn btn-default" />
+                </div>
+            </div>
+        }
 
+        @using (Html.BeginForm("saveGame", "Game", FormMethod.Post)) {
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-4">
+                    <input type="submit" value="Save Game" class="btn btn-default" />
+                </div>
+            </div>
+        }
+    </div>
     
 
