@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{52AC06DD-44AF-4D20-9304-B2793714BB8F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinesweeperProjectCLC247/Models/CellModel.cs">
+    <Files>
+      <File FileName="MinesweeperProjectCLC247/Services/DAO.cs" Line="294" Column="37" />
+      <File FileName="MinesweeperProjectCLC247/Services/GameLogicBLL.cs" Line="1" Column="1" />
+      <File FileName="MinesweeperProjectCLC247/Controllers/GameController.cs" Line="27" Column="53" />
+      <File FileName="MinesweeperProjectCLC247/Models/CellModel.cs" Line="8" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MinesweeperProjectCLC247" expanded="True">
+            <Node name="MinesweeperProjectCLC247" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="CellModel.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MinesweeperProjectCLC247 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

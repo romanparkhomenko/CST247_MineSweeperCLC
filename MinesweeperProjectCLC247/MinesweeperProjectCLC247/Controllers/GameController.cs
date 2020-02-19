@@ -11,23 +11,21 @@ using NLog;
 
 namespace MinesweeperProjectCLC247.Controllers {
 
-  
-
-    public class GameController : Controller
-    {
+    public class GameController : Controller {
         private static MyLogger1 logger = MyLogger1.GetInstance();
+
 
         // GET: Game
         [CustomAuthorization]
         [HttpGet]
         public ActionResult Index() {
+            int USERID = int.Parse(new JavaScriptSerializer().Serialize(Session["userid"]));
             GameBoardModel grid = null;
             GameLogicBLL gameService = new GameLogicBLL();
 
             if (Session["user"] != null) {
-                int userID = int.Parse(new JavaScriptSerializer().Serialize(Session["userid"]));
-                grid = gameService.FindGrid(userID);
-                
+                grid = gameService.FindGrid(USERID);
+
                 if (grid == null) {
                     grid = gameService.CreateGrid(25, 25);
                 }
@@ -37,13 +35,12 @@ namespace MinesweeperProjectCLC247.Controllers {
             }
 
             //logger.Info("Grid: " + new JavaScriptSerializer().Serialize(grid));
-            
+
             return View("Index", grid);
         }
 
 
-        public string ElapsedTime()
-        {
+        public string ElapsedTime() {
             TimeSpan ts = Globals.timer.Elapsed;
             Globals.timer.Stop();
             string elapsedtime = String.Format("{0:00}:{1:00}.{2:00}", ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
@@ -72,41 +69,40 @@ namespace MinesweeperProjectCLC247.Controllers {
             Globals.numberClicks++;
             return PartialView("Index", grid);
         }
-       
+
 
         private PartialViewResult EndGame() {
-         
+
             RevealAll();
             return PartialView("Index", Globals.Grid);
         }
 
         // Function to show the entire grid after losing.
-        private void RevealAll()
-        {
+        private void RevealAll() {
             Globals.numberClicks++;
-           
-           
-            logger.Info("Number of Clicks = "+Globals.numberClicks.ToString());
-            logger.Info("Time Spent in Game = "+ElapsedTime()) ;
+
+            logger.Info("Number of Clicks = " + Globals.numberClicks.ToString());
+            logger.Info("Time Spent in Game = " + ElapsedTime());
             GameBoardModel grid = Globals.Grid;
 
             grid.HasWon = true;
 
-            for (int i = 0; i < grid.Rows; i++)
-            {
-                for (int j = 0; j < grid.Cols; j++)
-                {
+            for (int i = 0; i < grid.Rows; i++) {
+                for (int j = 0; j < grid.Cols; j++) {
                     grid.Cells[i, j].IsVisited = true;
                 }
             }
         }
 
+
+        // Function to reset the grid and Game.
         [HttpGet]
         public ActionResult resetGame() {
             GameLogicBLL gameService = new GameLogicBLL();
-            return View("Index", gameService.CreateGrid(25,25));
+            return View("Index", gameService.CreateGrid(25, 25));
         }
 
+        // Function to save the game stats
         [HttpPost]
         public ActionResult saveGame() {
             DAObusiness gameService = new DAObusiness();

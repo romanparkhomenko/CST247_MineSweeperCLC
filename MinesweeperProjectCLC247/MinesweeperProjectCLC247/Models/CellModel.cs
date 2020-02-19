@@ -5,14 +5,12 @@ using System.Web;
 
 namespace MinesweeperProjectCLC247.Models {
     public class CellModel {
-        public bool IsClicked { get; set; } = false;
-        public int LiveNeighbors { get; set; } = 0;
-        public string ImageLocation { get; set; } = null;
-        public bool IsLive { get; set; } = false;
-        public bool IsVisited { get; set; } = false;
+        public int ID { get; set; }
         public int Row { get; set; }
         public int Column { get; set; }
-        public string Text { get; set; }
+        public int LiveNeighbors { get; set; } = 0;
+        public bool IsLive { get; set; } = false;
+        public bool IsVisited { get; set; } = false;
 
         /*Expected usage: 
          *

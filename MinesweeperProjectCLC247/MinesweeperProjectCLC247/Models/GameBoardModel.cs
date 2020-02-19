@@ -7,11 +7,13 @@ using System.Diagnostics;
 namespace MinesweeperProjectCLC247.Models {
     public class GameBoardModel {
 
-        //public List<CellModel> Board = new List<CellModel>();
+        public int ID { get; set; }
         public int Rows { get; set; }
         public int Cols { get; set; }
+        public int UserID { get; set; }
         public bool HasWon { get; set; }
         public CellModel[,] Cells { get; set; }
+        public int Clicks { get; set; }
 
 
         //constructor to make board of given size
@@ -20,8 +22,6 @@ namespace MinesweeperProjectCLC247.Models {
             this.Cols = cols;
             this.HasWon = hasWon;
         }
-
-
 
         public void SetLiveCount() {
             for (int i = 0; i < Rows; i++) {

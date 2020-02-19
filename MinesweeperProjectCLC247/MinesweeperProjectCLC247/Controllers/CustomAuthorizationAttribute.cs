@@ -4,8 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MinesweeperProjectCLC247.Controllers
-{
+namespace MinesweeperProjectCLC247.Controllers {
     public class CustomAuthorizationAttribute : FilterAttribute, IAuthorizationFilter {
 
         void IAuthorizationFilter.OnAuthorization(AuthorizationContext filterContext) {
