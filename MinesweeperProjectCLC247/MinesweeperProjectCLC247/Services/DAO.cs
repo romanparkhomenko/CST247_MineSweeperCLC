@@ -77,13 +77,10 @@ namespace MinesweeperProjectCLC247.Services {
         }
 
 
-        public GameBoardModel grid = null;
-        public int rows;
-        public int cols;
-        public bool hasWon;
-        public bool previousGridExists = true;
-
         public GameBoardModel FindGrid(int userID) {
+            // Default constructor
+            GameBoardModel grid = new GameBoardModel(25, 25, false);
+            bool previousGridExists = true;
 
             try {
                 string query = "SELECT * FROM dbo.Grids WHERE UserID=" + userID;
@@ -97,10 +94,12 @@ namespace MinesweeperProjectCLC247.Services {
 
                 if (reader.HasRows) {
                     while (reader.Read()) {
-                        this.grid.ID = int.Parse(reader["ID"].ToString());
-                        this.rows = int.Parse(reader["Rows"].ToString());
-                        this.cols = int.Parse(reader["Cols"].ToString());
-                        this.hasWon = bool.Parse(reader["HasWon"].ToString());
+                        grid.ID = int.Parse(reader["ID"].ToString());
+                        grid.Rows = int.Parse(reader["Rows"].ToString());
+                        grid.Cols = int.Parse(reader["Cols"].ToString());
+                        grid.HasWon = bool.Parse(reader["HasWon"].ToString());
+                        grid.Clicks = int.Parse(reader["Clicks"].ToString());
+
                     }
                 } else {
                     previousGridExists = false;
@@ -112,14 +111,13 @@ namespace MinesweeperProjectCLC247.Services {
             } catch (SqlException e) {
                 throw e;
             }
-
-            grid = new GameBoardModel(this.rows, this.cols, this.hasWon);
-            CellModel[,] cells = new CellModel[cols, rows];
+            
+            CellModel[,] cells = new CellModel[grid.Cols, grid.Rows];
             grid.Cells = cells;
 
             if (previousGridExists) {
                 try {
-                    string query = "SELECT * FROM dbo.Cells WHERE GridID=" + this.grid.ID;
+                    string query = "SELECT * FROM dbo.Cells WHERE GridID=" + grid.ID;
 
                     SqlCommand cmd = new SqlCommand(query, this.conn);
 
@@ -140,6 +138,7 @@ namespace MinesweeperProjectCLC247.Services {
                         cell.IsLive = isLive;
                         cell.IsVisited = isVisited;
                         cell.LiveNeighbors = liveneighbors;
+                        cell.ID = ID;
                         grid.Cells[x, y] = cell;
                     }
 
@@ -172,9 +171,9 @@ namespace MinesweeperProjectCLC247.Services {
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read()) {
                     int ID = int.Parse(reader["ID"].ToString());
-                    int userid = int.Parse(reader["UserID"].ToString());
                     int clicks = int.Parse(reader["Clicks"].ToString());
                     string time = reader["Time"].ToString();
+                    int userid = int.Parse(reader["StatsUserID"].ToString());
 
                     games.Add(new PublishedGame(ID, userid, clicks, time));
                 }
@@ -189,7 +188,7 @@ namespace MinesweeperProjectCLC247.Services {
         }
 
 
-        public void CreateGrid(GameBoardModel grid, string userid) {
+        public void CreateGrid(GameBoardModel grid, int userid) {
 
             int gridID;
 
@@ -202,7 +201,7 @@ namespace MinesweeperProjectCLC247.Services {
                 cmd.Parameters.Add("@Rows", SqlDbType.Int, 11).Value = grid.Rows;
                 cmd.Parameters.Add("@Cols", SqlDbType.Int, 11).Value = grid.Cols;
                 cmd.Parameters.Add("@UserID", SqlDbType.Int, 11).Value = userid;
-                cmd.Parameters.Add("@HasWon", SqlDbType.Bit).Value = grid.HasWon;
+                cmd.Parameters.Add("@HasWon", SqlDbType.VarChar).Value = grid.HasWon;
                 cmd.Parameters.Add("@Clicks", SqlDbType.Int, 11).Value = grid.Clicks;
 
                 conn.Open();
@@ -228,8 +227,8 @@ namespace MinesweeperProjectCLC247.Services {
                         SqlCommand cmd = new SqlCommand(query, this.conn);
                         cmd.Parameters.Add("@Col", SqlDbType.Int, 11).Value = grid.Cells[x, y].Column;
                         cmd.Parameters.Add("@Row", SqlDbType.Int, 11).Value = grid.Cells[x, y].Row;
-                        cmd.Parameters.Add("@IsLive", SqlDbType.Bit).Value = grid.Cells[x, y].IsLive;
-                        cmd.Parameters.Add("@IsVisited", SqlDbType.Bit).Value = grid.Cells[x, y].IsVisited;
+                        cmd.Parameters.Add("@IsLive", SqlDbType.VarChar).Value = grid.Cells[x, y].IsLive;
+                        cmd.Parameters.Add("@IsVisited", SqlDbType.VarChar).Value = grid.Cells[x, y].IsVisited;
                         cmd.Parameters.Add("@LiveNeighbors", SqlDbType.Int, 11).Value = grid.Cells[x, y].LiveNeighbors;
                         cmd.Parameters.Add("@GridID", SqlDbType.Int, 11).Value = gridID;
 
@@ -246,9 +245,8 @@ namespace MinesweeperProjectCLC247.Services {
 
         }
 
-        public void UpdateGrid(GameBoardModel grid, string userid) {
-
-           
+        public void UpdateGrid(GameBoardModel grid, int userid) {
+            
             try {
                 // Setup INSERT query with parameters
                 string query = "UPDATE dbo.Grids SET ROWS = @Rows, COLS = @Cols, UserID = @UserID, HasWon = @HasWon, Clicks = @Clicks WHERE ID=@ID";
@@ -258,7 +256,7 @@ namespace MinesweeperProjectCLC247.Services {
                 cmd.Parameters.Add("@Rows", SqlDbType.Int, 11).Value = grid.Rows;
                 cmd.Parameters.Add("@Cols", SqlDbType.Int, 11).Value = grid.Cols;
                 cmd.Parameters.Add("@UserID", SqlDbType.Int, 11).Value = userid;
-                cmd.Parameters.Add("@HasWon", SqlDbType.Bit).Value = grid.HasWon;
+                cmd.Parameters.Add("@HasWon", SqlDbType.VarChar).Value = grid.HasWon;
                 cmd.Parameters.Add("@Clicks", SqlDbType.Int, 11).Value = grid.Clicks;
                 cmd.Parameters.Add("@ID", SqlDbType.Int, 11).Value = grid.ID;
 
@@ -285,8 +283,8 @@ namespace MinesweeperProjectCLC247.Services {
                         SqlCommand cmd = new SqlCommand(query, this.conn);
                         cmd.Parameters.Add("@Col", SqlDbType.Int, 11).Value = grid.Cells[x, y].Column;
                         cmd.Parameters.Add("@Row", SqlDbType.Int, 11).Value = grid.Cells[x, y].Row;
-                        cmd.Parameters.Add("@IsLive", SqlDbType.Bit).Value = grid.Cells[x, y].IsLive;
-                        cmd.Parameters.Add("@IsVisited", SqlDbType.Bit).Value = grid.Cells[x, y].IsVisited;
+                        cmd.Parameters.Add("@IsLive", SqlDbType.VarChar).Value = grid.Cells[x, y].IsLive;
+                        cmd.Parameters.Add("@IsVisited", SqlDbType.VarChar).Value = grid.Cells[x, y].IsVisited;
                         cmd.Parameters.Add("@LiveNeighbors", SqlDbType.Int, 11).Value = grid.Cells[x, y].LiveNeighbors;
                         cmd.Parameters.Add("@GridID", SqlDbType.Int, 11).Value = grid.ID;
                         cmd.Parameters.Add("@ID", SqlDbType.Int, 11).Value = grid.Cells[x, y].ID;
@@ -303,33 +301,46 @@ namespace MinesweeperProjectCLC247.Services {
             }
 
         }
-
-
-        public void SaveGame(GameBoardModel grid, string userID) {
-            //open file stream
-            StreamWriter file = File.CreateText(@"D:\game.json");
-            JsonSerializer serializer = new JsonSerializer();
-            serializer.Serialize(file, grid);
-
+        
+        public void publishGameStats(GameBoardModel grid, int userID, string elapsedTime) {
+            
             try {
-                string query = "UPDATE dbo.Grids SET gridObject=D:\\game.json WHERE UserID=" + userID;
+                string query = "INSERT INTO dbo.Stats (Clicks, Time, StatsUserID) " +
+                    "VALUES (@Clicks, @Time, @StatsUserID)";
+
+                SqlCommand cmd = new SqlCommand(query, this.conn);
+
+                cmd.Parameters.Add("@Clicks", SqlDbType.Int, 11).Value = grid.Clicks;
+                cmd.Parameters.Add("@Time", SqlDbType.VarChar, 11).Value = elapsedTime;
+                cmd.Parameters.Add("@StatsUserID", SqlDbType.Int, 11).Value = userID;
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                conn.Close();
+
+            } catch (SqlException e) {
+                throw e;
+            }
+        }
+
+
+        public void DeleteGrid(int userID) {
+            try {
+                // Setup INSERT query with parameters
+                string query = "DELETE FROM dbo.Grids WHERE UserID=" + userID;
                 SqlCommand cmd = new SqlCommand(query, this.conn);
 
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 conn.Close();
 
-                string statsQuery = "INSERT INTO dbo.Stats VALUES(" + userID + "," + Globals.numberClicks + "," + Globals.timer.ToString() + ")";
-                SqlCommand statsCMD = new SqlCommand(statsQuery, this.conn);
-
-                conn.Open();
-                statsCMD.ExecuteNonQuery();
-                conn.Close();
-            } catch (SqlException e) {
+            }
+            catch (SqlException e) {
                 throw e;
             }
-
+            
         }
+
     }
 
 }

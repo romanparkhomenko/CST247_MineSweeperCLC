@@ -14,8 +14,6 @@ namespace MinesweeperProjectCLC247.Services {
             Globals.Grid = businessService.FindGrid(userID);
 
             if (Globals.Grid != null) {
-                // Activate the cells
-                FillRandomCells(20, Globals.Grid.Cols, Globals.Grid.Rows, Globals.Grid.Cells, Globals.Grid);
                 return Globals.Grid;
             } else {
                 return null;
@@ -23,7 +21,7 @@ namespace MinesweeperProjectCLC247.Services {
         }
 
         // Function to create GLOBAL Grid and fill it with random cells.
-        public GameBoardModel CreateGrid(int width, int height) {
+        public GameBoardModel CreateGrid(int width, int height, int userID) {
             Globals.timer.Start();
 
             Globals.Grid = new GameBoardModel(width, height, false);
@@ -38,7 +36,29 @@ namespace MinesweeperProjectCLC247.Services {
             // Activate the cells
             FillRandomCells(20, width, height, cells, Globals.Grid);
 
+            // Send new Grid to DB
+            DAObusiness businessService = new DAObusiness();
+            businessService.CreateGrid(Globals.Grid, userID);
+
             return Globals.Grid;
+        }
+
+        public void UpdateGrid(GameBoardModel grid, int userID) {
+           
+            // Send updated Grid to DB
+            DAObusiness businessService = new DAObusiness();
+            businessService.UpdateGrid(grid, userID);
+            
+        }
+
+        public void PublishGameStats(GameBoardModel grid, int userID, string elapsedTime) {
+            DAObusiness businessService = new DAObusiness();
+            businessService.publishGameStats(grid, userID, elapsedTime);
+        }
+
+        public void deleteGrid(int userID) {
+            DAObusiness businessService = new DAObusiness();
+            businessService.deleteGrid(userID);
         }
 
         public void FillRandomCells(int percentage, int width, int height, CellModel[,] mineField, GameBoardModel grid) {

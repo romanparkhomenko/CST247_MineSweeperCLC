@@ -20,23 +20,20 @@ namespace MinesweeperProjectCLC247.Controllers {
         [HttpGet]
         public ActionResult Index() {
             int USERID = int.Parse(new JavaScriptSerializer().Serialize(Session["userid"]));
-            GameBoardModel grid = null;
             GameLogicBLL gameService = new GameLogicBLL();
 
             if (Session["user"] != null) {
-                grid = gameService.FindGrid(USERID);
+                Globals.Grid = gameService.FindGrid(USERID);
 
-                if (grid == null) {
-                    grid = gameService.CreateGrid(25, 25);
+                if (Globals.Grid == null) {
+                    Globals.Grid = gameService.CreateGrid(25, 25, USERID);
                 }
 
             } else {
                 ModelError e = new ModelError("You must be logged in to access this page.");
             }
 
-            //logger.Info("Grid: " + new JavaScriptSerializer().Serialize(grid));
-
-            return View("Index", grid);
+            return View("Index", Globals.Grid);
         }
 
 
@@ -50,29 +47,32 @@ namespace MinesweeperProjectCLC247.Controllers {
 
         [HttpPost]
         public PartialViewResult ActivateCell(string x, string y) {
+            int USERID = int.Parse(new JavaScriptSerializer().Serialize(Session["userid"]));
             int Column = int.Parse(x.Trim());
             int Row = int.Parse(y.Trim());
-            GameBoardModel grid = Globals.Grid;
             GameLogicBLL gameService = new GameLogicBLL();
+            GameBoardModel grid = Globals.Grid;
 
-            CellModel cell = grid.Cells[Column, Row];
+            grid.Cells[Column, Row].IsVisited = true;
+            
+            Globals.numberClicks++;
+            grid.Clicks = Globals.numberClicks;
 
-            cell.IsVisited = true;
-
-            if (cell.IsLive) {
+            if (grid.Cells[Column, Row].IsLive) {
+                gameService.PublishGameStats(grid, USERID, this.ElapsedTime());
                 return EndGame();
             } else {
-                if (cell.LiveNeighbors == 0) {
-                    gameService.showNeighbors(grid, cell.Column, cell.Row);
+                if (grid.Cells[Column, Row].LiveNeighbors == 0) {
+                    gameService.showNeighbors(Globals.Grid, Globals.Grid.Cells[Column, Row].Column, Globals.Grid.Cells[Column, Row].Row);
                 }
+                gameService.UpdateGrid(grid, USERID);
             }
-            Globals.numberClicks++;
+            
             return PartialView("Index", grid);
         }
 
 
         private PartialViewResult EndGame() {
-
             RevealAll();
             return PartialView("Index", Globals.Grid);
         }
@@ -98,16 +98,10 @@ namespace MinesweeperProjectCLC247.Controllers {
         // Function to reset the grid and Game.
         [HttpGet]
         public ActionResult resetGame() {
+            int USERID = int.Parse(new JavaScriptSerializer().Serialize(Session["userid"]));
             GameLogicBLL gameService = new GameLogicBLL();
-            return View("Index", gameService.CreateGrid(25, 25));
-        }
-
-        // Function to save the game stats
-        [HttpPost]
-        public ActionResult saveGame() {
-            DAObusiness gameService = new DAObusiness();
-            gameService.SaveGame(Globals.Grid, Session["userid"].ToString());
-            return View("Index", Globals.Grid);
+            gameService.deleteGrid(USERID);
+            return View("Index", gameService.CreateGrid(25, 25, USERID));
         }
 
 

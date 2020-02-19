@@ -47,6 +47,24 @@ namespace MinesweeperProjectCLC247.Services
             return dao.FindGrid(userID);
         }
 
+        public void CreateGrid(GameBoardModel grid, int userID) {
+            DAO dao = new DAO();
+
+            dao.CreateGrid(grid, userID);
+        }
+
+        public void deleteGrid(int userID) {
+            DAO dao = new DAO();
+
+            dao.DeleteGrid(userID);
+        }
+
+        public void UpdateGrid(GameBoardModel grid, int userID) {
+            DAO dao = new DAO();
+
+            dao.UpdateGrid(grid, userID);
+        }
+
         public List<PublishedGame> getAllStats() {
             DAO dao = new DAO();
 
@@ -54,9 +72,9 @@ namespace MinesweeperProjectCLC247.Services
             return dao.getAllStats();
         }
 
-        public void SaveGame(GameBoardModel grid, string userID) {
+        public void publishGameStats(GameBoardModel grid, int userID, string elapsedTime) {
             DAO dao = new DAO();
-            dao.SaveGame(grid, userID);
+            dao.publishGameStats(grid, userID, elapsedTime);
         }
 
     }
