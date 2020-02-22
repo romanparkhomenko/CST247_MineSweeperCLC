@@ -1,0 +1,47 @@
+CREATE TABLE [dbo].[Users] (
+    [ID] INT NOT NULL IDENTITY PRIMARY KEY,
+    [FirstName] VARCHAR (50) NOT NULL,
+    [LastName] VARCHAR (50) NOT NULL,
+    [Gender] VARCHAR (50) NULL,
+    [Age] INT NOT NULL,
+    [State] VARCHAR (50) NULL,
+    [Email] VARCHAR (50) NOT NULL,
+    [Username] VARCHAR (50) NOT NULL,
+    [Password] VARCHAR (50) NOT NULL
+);
+ 
+CREATE TABLE [dbo].[Grids] (
+    [ID] INT IDENTITY (1, 1) NOT NULL,
+    [Rows] INT NOT NULL,
+    [Cols] INT NOT NULL,
+    [HasWon] VARCHAR (5) DEFAULT ('false') NOT NULL,
+    [Clicks] INT DEFAULT ((0)) NOT NULL,
+    [UserID] INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC),
+    CONSTRAINT [UserID] FOREIGN KEY ([UserID]) REFERENCES [dbo].[Users] ([ID]) ON DELETE CASCADE ON UPDATE CASCADE
+);
+ 
+ 
+CREATE TABLE [dbo].[Cells] (
+    [ID] INT IDENTITY (1, 1) NOT NULL,
+    [Col] INT NOT NULL,
+    [Row] INT NOT NULL,
+    [IsLive] VARCHAR (5) NOT NULL,
+    [IsVisited] VARCHAR (5) NOT NULL,
+    [LiveNeighbors] INT NOT NULL,
+    [GridID] INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC),
+    CONSTRAINT [GridID] FOREIGN KEY ([GridID]) REFERENCES [dbo].[Grids] ([ID]) ON DELETE CASCADE ON UPDATE CASCADE
+);
+ 
+CREATE TABLE [dbo].[Stats] (
+    [ID] INT NOT NULL IDENTITY PRIMARY KEY,
+    [Clicks] INT NOT NULL,
+    [Time] VARCHAR(50) NOT NULL,
+    [StatsUserID] INT NOT NULL, CONSTRAINT StatsUserID FOREIGN KEY (StatsUserID)
+    REFERENCES Users (ID)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
+);
+
+
