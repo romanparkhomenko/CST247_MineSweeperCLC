@@ -17,7 +17,7 @@ namespace GameAPI {
     public class CompositeType
     {
         bool boolValue = true;
-        string stringValue = "Hello ";
+        string stringValue = "Hello "
 
         [DataMember]
         public bool BoolValue

@@ -8,15 +8,25 @@
 </head>
 <body>
     <center>
-        <form action="/Game" method="post">
+        <h5>Select Difficulty</h5>
+        @using (Html.BeginForm("GameViewInit", "Game", FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.RadioButton("Easy", 0) Easy <br />
+                @Html.RadioButton("Medium", 1) Medium <br />
+                @Html.RadioButton("Hard", 2) Hard <br />
+            </div>
+            <input type="submit" class="btn btn-primary" />
+        }
+
+
+@*        <form action="" method="post">
             @Html.Label("Game Mode Selection"):<br />
             @Html.RadioButton("Easy", 0)Easy<br />
             @Html.RadioButton("Medium", 1)Medium<br />
             @Html.RadioButton("Hard", 2)Hard<br />
-
-        <button type="submit">Start Game</button>
-
-        </form>
+            <button type="submit">Start Game</button>
+        </form> *@
     </center>
 </body>
 </html>

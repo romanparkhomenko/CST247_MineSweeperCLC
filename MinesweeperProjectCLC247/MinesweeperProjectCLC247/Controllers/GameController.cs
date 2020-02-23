@@ -101,6 +101,7 @@ namespace MinesweeperProjectCLC247.Controllers {
             int USERID = int.Parse(new JavaScriptSerializer().Serialize(Session["userid"]));
             GameLogicBLL gameService = new GameLogicBLL();
             gameService.deleteGrid(USERID);
+            Globals.numberClicks = 0;
             return View("Index", gameService.CreateGrid(25, 25, USERID));
         }
 

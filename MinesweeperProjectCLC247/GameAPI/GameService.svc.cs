@@ -16,7 +16,6 @@ namespace GameAPI
     public class GameService : IGameService {
 
         List<PublishedGame> games = new List<PublishedGame>();
-        Boolean serverTest = false;
 
         public GameService() {
             DAObusiness gameService = new DAObusiness();
@@ -26,9 +25,7 @@ namespace GameAPI
         public DTO GetAllStats() {
             DTO dto;
 
-            if (!serverTest) {
-                dto = new DTO(1, "Data Server down", null);
-            } else if (!games.Any()) {
+            if (!games.Any()) {
                 dto = new DTO(-1, "No Games found", null);
             } else {
                 dto = new DTO(0, "OK", games);

@@ -10,7 +10,7 @@ using System;
 namespace MinesweeperProjectCLC247.Services {
     public class DAO {
         //supply SqlConnection object as class member variable
-        private readonly SqlConnection conn = new SqlConnection("data source=(localdb)\\MSSQLLocalDB; database=Test; integrated security = SSPI");
+        private readonly SqlConnection conn = new SqlConnection("data source=(localdb)\\MSSQLLocalDB; database=MinesweeperCLCProject; integrated security = SSPI");
 
 
         /*********************************
